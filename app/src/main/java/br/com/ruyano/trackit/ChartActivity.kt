@@ -1,5 +1,6 @@
 package br.com.ruyano.trackit
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -35,7 +36,10 @@ class ChartActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when(item?.itemId) {
-            R.id.menu_add -> Toast.makeText(this, "add", Toast.LENGTH_SHORT).show()
+            R.id.menu_add -> {
+                val intent = Intent(this, AddNewValueActivity::class.java)
+                startActivity(intent)
+            }
             R.id.menu_controls -> Toast.makeText(this, "Filtro", Toast.LENGTH_SHORT).show()
             R.id.menu_target -> Toast.makeText(this, "Meta", Toast.LENGTH_SHORT).show()
             android.R.id.home -> onBackPressed()

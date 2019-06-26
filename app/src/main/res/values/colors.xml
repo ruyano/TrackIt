@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff8a65</color>
-    <color name="colorPrimaryDark">#c75b39</color>
-    <color name="colorPrimaryLight">#ffbb93</color>
-    <color name="colorAccent">#FF4500</color>
+    <color name="colorPrimary">#d6d8db</color>
+    <color name="colorPrimaryDark">#a5a7a9</color>
+    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorAccent">#9cdbce</color>
 
     <color name="background">#ff8a65</color>
 
@@ -11,8 +11,10 @@
     <color name="gray80">#50808080</color>
     <color name="transparent">#FFFFFFFF</color>
 
-    <color name="loginTextAndIconsColor">#FFFFFF</color>
-
-
+    <color name="textColor">#808080</color>
     <color name="editTextBackground">#80FFFFFF</color>
+    <color name="facebookBlueColor">#3C5A99</color>
+    <color name="facebookTextColor">#FFFFFFFF</color>
+
+
 </resources>

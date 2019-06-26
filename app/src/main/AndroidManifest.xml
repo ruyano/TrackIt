@@ -10,21 +10,25 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
-            tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name=".view.login.LoginActivity">
+            tools:ignore="GoogleAppIndexingWarning"
+            android:fullBackupContent="@xml/backup_descriptor">
+        <activity
+                android:name=".view.onboarding.OnboardingActivity"
+                android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
+        <activity
+                android:name=".view.login.LoginActivity"
+                android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".view.register.RegisterActivity"
+                  android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".ChartActivity"/>
-
         <activity android:name=".AddNewValueActivity"/>
-
         <activity android:name=".MainActivity"/>
-
     </application>
 
 </manifest>

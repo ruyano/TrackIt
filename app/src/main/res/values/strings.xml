@@ -3,4 +3,18 @@
     <string name="menu_controls_title">Filtro</string>
     <string name="menu_add_title">add</string>
     <string name="menu_target_title">Meta</string>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="name">Nome</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Esqueci a senha</string>
+    <string name="create_account">Criar conta</string>
+    <string name="register">Registrar</string>
+    <string name="facebook">Entrar com facebook</string>
+    <string name="error_invalid_name">Nome é obrigatório</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha inválida</string>
+    <string name="error_short_password">A senha deve ter no mínimo 5 caractéres</string>
+
 </resources>
